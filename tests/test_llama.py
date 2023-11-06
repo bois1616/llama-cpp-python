@@ -1,7 +1,8 @@
 import pytest
 import llama_cpp
 
-MODEL = "./vendor/llama.cpp/models/ggml-vocab-llama.gguf"
+# MODEL = "./vendor/llama.cpp/models/ggml-vocab-llama.gguf"
+MODEL = "C:/Users/micro/git/Llama-2-13b-chat-german-GGUF/Llama-2-13b-chat-german-GGUF.q5_K_M.bin"
 
 
 def test_llama_cpp_tokenization():
